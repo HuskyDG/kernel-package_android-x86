@@ -1,0 +1,9 @@
+#!/sbin/sh
+
+ZIPFILE="$3"
+TMPDIR=/dev/tmp
+
+mkdir -p $TMPDIR
+unzip -o "$ZIPFILE" "customize.sh" -d "$TMPDIR" &>/dev/null
+. "$TMPDIR/customize.sh"
+rm -rf $TMPDIR

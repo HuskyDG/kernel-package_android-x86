@@ -1,0 +1,19 @@
+# Soft dependencies extracted from modules themselves.
+softdep cifs ecb
+softdep cifs hmac
+softdep cifs md5
+softdep cifs nls
+softdep cifs aes
+softdep cifs cmac
+softdep cifs sha256
+softdep cifs sha512
+softdep cifs aead2
+softdep cifs ccm
+softdep cifs gcm
+softdep ipmi_msghandler post: ipmi_devintf
+softdep arizona_i2c pre: arizona_ldo1
+softdep arizona_spi pre: arizona_ldo1
+softdep intel_lpss pre: platform:idma64
+softdep spi_pxa2xx_platform pre: dw_dmac
+softdep genet pre: mdio-bcm-unimac
+softdep r8169 pre: realtek

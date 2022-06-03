@@ -1,0 +1,5 @@
+# Device nodes to trigger on-demand module loading.
+nvram nvram c10:144
+hci_vhci vhci c10:137
+snd_timer snd/timer c116:33
+snd_seq snd/seq c116:1
