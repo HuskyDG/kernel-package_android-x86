@@ -16,7 +16,7 @@ jobs:
 
     - uses: actions/upload-artifact@v1
       with:
-        name: Kernel Package
+        name: Kernel-Package
         path: kernel-package_android-x86.zip
 
     - uses: marvinpinto/action-automatic-releases@latest
