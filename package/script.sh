@@ -1,4 +1,4 @@
-
+OUTFD="$2"
 ZIPFILE="$3"
 MAGISKTMP="$(magisk --path)"
 

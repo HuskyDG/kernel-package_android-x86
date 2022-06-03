@@ -1,5 +1,6 @@
 #!/sbin/sh
 
+OUTFD="$2"
 ZIPFILE="$3"
 TMPDIR=/dev/tmp
 
